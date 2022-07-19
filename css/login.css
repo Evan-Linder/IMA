@@ -1,0 +1,239 @@
+/* jsdlivr reset. */
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+
+body#loginBody{
+    /* sets the background */
+    background: linear-gradient(135deg, blue, magenta);
+}
+/* alligns the login header. */
+div.loginHeader {
+    text-align:center;
+}
+
+div.loginHeader{
+    margin-bottom: 20px;
+}
+/* changes color and size of the login header h1 */ 
+div.loginHeader h1{
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+/* colors the p along with positioning and sizing.*/
+div.loginHeader p{
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/* adds the border and sizing.  */
+div.loginHeader p:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: blue;
+    margin: 0 auto;
+}
+/* adds the box and padding along with color styling*/
+div.loginBody form{
+    margin: 0 auto;
+    width: 300px;
+    background: rgba(0,0,0,0.5);
+    padding: 45px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 0px;
+}
+/* addds space above the boxes. */
+div.loginInputsContainer{
+    margin-top: 20px;
+}
+/* capitalizes, aligns, and positions the labeling for boxes. */
+div.loginInputsContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 4px 50%;
+}
+
+div.loginInputsContainer input{
+    height: 30px;
+    width: 100%; 
+    border: 2px solid blue;
+    border-radius:10px;
+    text-align: center;
+    
+}
+
+div.loginInputsContainer {
+    margin-top: 40px;
+    text-align: center;
+}
+/* slightly rounds and fixes margining on boxes. */
+div.loginInputsButton input{
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    background: blue;
+    border: none;
+    margin-top: 50px;
+    border-radius: 8px;
+    width: 50%;;
+
+}
+/* adjusts size and color of header. */
+div.header{
+    width:100%;
+    height: 20px;
+    background: white;
+}
+/* selects my image and the padding of the page */
+div.banner{
+    background: linear-gradient(135deg, blue, magenta);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* width and alignment of homepage container */
+div.homepageContainer{
+    width:100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.bannerHeader h1{
+    font-size:80px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+div.bannerHeader p{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+p.bannerTagline {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+/* FOR BUTTONS ON HOMEPAGE */
+div.bannerIcons{
+    margin-top: 20px;
+}
+
+.div.bannerIcons input{
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.bugTrackerInfo{
+   font-size: 40px;
+   text-align: center;
+}
+
+#bugTrackerInfo2{
+font-size: 20px;
+color: black;
+}
+
+#dashboardMainContainer{
+    display: flex;
+   flex-direction:row;
+}
+div.dashboard_sidebar{
+    width: 20%;
+    background:gray;
+    height: 100vh;
+
+}
+div.dashboard_content_container{
+    width:70%;
+
+}
+
+h3.dashboard_logo{
+    color:blue;
+    font-size: 80px;
+    text-align:center;
+}
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+div.dashboard_sidebar_user img{
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-right: 5px;
+}
+div.dashboard_sidebar_user span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+ul.dashboard_menu_lists{
+padding:20px;
+margin-top:20px;
+}
+    
+
+ul.dashboard_menu_lists li{
+    padding: 15px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: gray;
+    text-align:center;
+ 
+
+}
+
+ul.dashboard_menu_lists li a{
+    text-decoration: none;
+    color:white;
+
+}
+ul.dashboard_menu_lists li a.menuActice{
+    background: blue;
+    
+}
+
+ul.dashboard_menu_lists li:hover{
+    background: blue;
+    transition: 0.3s all;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
